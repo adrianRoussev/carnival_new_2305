@@ -60,11 +60,6 @@ describe Ride do
       expect(ride1.rider_log).to eq({})
     end
 
-#     it ' boards a rider who has a matching preference for the ride\'s excitement level' do
-#         visitor2.add_preference(:thrilling)
-#         ride2.board_rider(visitor2)
-  
-#         expect(ride1.rider_log).to eq({visitor2})
-#   end
-end
+
+  end
 end
